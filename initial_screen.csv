@@ -1,0 +1,3 @@
+header:=:We meet Joe at the tender age of 11.\nCan you help him become a happy\nand responsible adult?
+questions:=:\nWhat shall you call him?\n\t1. Joe\n\t2.Joe\n\t3.Joe\n
+prompt:=:\nPlease enter your hero's name: 
