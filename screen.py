@@ -4,12 +4,9 @@ class Screen():
 
     TITLE = 'The Life of Joe'
 
-    def __init__(self):
+    def __init__(self, text):
 
-        self.header = None
-        self.questions = None
-        self.prompt = None
-
+        self.text = text
         self.separator = '\n---------------------------------------\n'
 
 
@@ -18,12 +15,10 @@ class Screen():
         print(self.separator)
         print(Screen.TITLE)
         print(self.separator)
-        print(self.header)
-        print(self.separator)
-        print(self.questions)
+        print(self.text)
         print(self.separator)
 
-        return input(self.prompt)
+        return input('\t: ')
 
 
 def main(args):

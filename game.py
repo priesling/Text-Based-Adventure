@@ -7,19 +7,10 @@ from screen import Screen
 
 def display_initial_screen():
 
-    initial_screen = Screen()
 
-    with open('initial_screen.csv') as screen_data:
-
-        contents = screen_data.readlines()
-
-        header = contents[0].split(':=:')[1]
-        questions = contents[1].split(':=:')[1]
-        prompt = contents[2].split(':=:')[1]
-        
-        initial_screen.header = header
-        initial_screen.questions = questions
-        initial_screen.prompt = prompt
+    with open('initial_screen.txt', 'r') as screen_data:
+        contents = screen_data.read()
+        initial_screen = Screen(contents)
 
     return initial_screen.display() 
         

@@ -1,0 +1,11 @@
+
+We meet Joe at the tender age of 11.
+Can you help him become a happy
+and responsible adult?
+
+What shall you call him?
+    1. Joe
+    2. Joe
+    3. Joe
+
+Please enter your hero's name: 
